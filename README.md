@@ -1,3 +1,12 @@
+## Notice
+Removed declaration in AndroidManifest.xml so that this plugin does not handle push messages.
+This was necessary in order to be able to use all the other features of the plugin, but the push treatment was done by another plugin, in my case the pushwoosh-cordova-plugin.
+
+See discussion of this scenario here:
+[https://github.com/dpa99c/cordova-plugin-firebasex/issues/165](https://github.com/dpa99c/cordova-plugin-firebasex/issues/165)
+
+========================
+
 cordova-plugin-firebasex [![Latest Stable Version](https://img.shields.io/npm/v/cordova-plugin-firebasex.svg)](https://www.npmjs.com/package/cordova-plugin-firebasex) [![Total Downloads](https://img.shields.io/npm/dt/cordova-plugin-firebasex.svg)](https://npm-stat.com/charts.html?package=cordova-plugin-firebasex)
 ========================
 
